@@ -9,7 +9,7 @@ const Footer = () => {
     const size = 25;
 
     return (
-        <div className='w-full text-sm p-2 rounded-sm text-center mt-5 duration-100'>
+        <div className='w-full text-sm p-2 rounded-sm text-center mt-5 duration-100 z-20'>
             <span>
                 <a href="https://github.com/Erik-Varga" target="_blank" rel="noreferrer">
                     <span className='flex items-center justify-center'>

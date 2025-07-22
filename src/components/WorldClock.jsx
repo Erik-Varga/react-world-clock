@@ -34,15 +34,15 @@ const WorldClock = () => {
             return () => clearInterval(interval);
         }, []);
   return (
-    <div className='flex flex-col items-center m-2 p-2'>
+    <div className='flex flex-col items-center'>
         {/* <h2 className='text-2xl font-bold'>World Clock</h2> */}
         {/* styles-clockContainer */}
-        <div className='grid grid-cols-3 gap-3'>
+        <div className='grid grid-col-1 md:grid-cols-2 xl:grid-cols-3 gap-3 w-full'>
             {cities.map((city) => (
                 // styles-cityCard
-                <div key={city.name} className='border border-gray-500 p-2 rounded'>
+                <div key={city.name} className='border border-gray-500 p-2 rounded bg-white dark:bg-gray-950'>
                     {/* styles-cityName */}
-                    <div className='font-bold'>{city.name}</div>
+                    <div className='font-bold text-base md:text-lg'>{city.name}</div>
                     {/* styles-cityTime */}
                     <div className=''>{times[city.name]}</div>
                 </div>

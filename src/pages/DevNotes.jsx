@@ -7,7 +7,7 @@ const DevNotes = () => {
   }, [])
 
   return (
-    <div className='w-full flex flex-1 items-center justify-center text-sm'>
+    <div className='flex flex-1 items-center justify-center text-sm relative bg-white dark:bg-gray-950 shadow p-2'>
       <div className="flex flex-col gap-2 items-center justify-center p-2">
 
         <div className="text-2xl mb-3">

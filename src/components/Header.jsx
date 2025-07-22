@@ -4,7 +4,7 @@ import ToggleDarkMode from './ToggleDarkMode'
 
 const Header = () => {
   return (
-    <div className='w-full flex justify-between items-center gap-2 font-semibold'>
+    <div className='w-full flex justify-between items-center gap-2 font-semibold z-20'>
         <Link to="/" className='flex items-center gap-2'>
             <img src="favicon.ico" className='h-7 w-7' alt="" />
             World Clock App
